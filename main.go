@@ -224,7 +224,7 @@ func init() {
 
 	config.W = []*driver.WSClient{driver.NewWebSocketClient(*url, *token)}
 	config.Z = zero.Config{
-		NickName:      append([]string{*adana}, "黑猫", "五更琉璃", "白猫", "神猫","くろねこ","流浪猫","工口猫","五更萝莉","闇猫","電波猫"),
+		NickName:      append([]string{*adana}, "黑猫", "五更琉璃", "白猫", "神猫", "くろねこ", "流浪猫", "工口猫", "五更萝莉", "闇猫", "電波猫"),
 		CommandPrefix: *prefix,
 		SuperUsers:    sus,
 		Driver:        []zero.Driver{config.W[0]},
